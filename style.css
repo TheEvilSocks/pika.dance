@@ -1,0 +1,46 @@
+@import url(https://fonts.googleapis.com/css?family=Advent+Pro:100);
+html {}
+
+body {
+    background-color: #000;
+    overflow: hidden;
+    color: #fff;
+}
+
+video#bgvid {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    z-index: -100;
+    background-size: cover;
+}
+
+span#autoPlayMsg {
+    color: #fff;
+    top: 0;
+    left: 0;
+}
+
+#clickCatcher {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 8;
+}
+
+#timer {
+    position: absolute;
+    bottom: 8px;
+    right: 8px;
+}
+
+#songPicker {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    z-index: 9;
+}

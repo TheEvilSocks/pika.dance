@@ -1,0 +1,34 @@
+{
+	"default": {
+		"info": {
+			"name": "Wanna Dance!",
+			"artist": "Theo Kirsh"
+		},
+		"files": [
+			{
+				"file": "default.mp3",
+				"mime": "audio/mpeg"
+			},
+			{
+				"file": "default.ogg",
+				"mime": "audio/ogg"
+			}
+		]
+	},
+	
+	"belong": {
+		"info": {
+			"name": "We Belong",
+			"artist": "Ferry Corsten",
+			"length": 14750,
+			"repeat": 14700
+		},
+		"_comment": "To anyone reading this, I chose not to add an MP3 because mp3 wanted an extra bit of silence at the end, ruining the perfect loop.",
+		"files": [
+			{
+				"file": "we_belong.ogg",
+				"mime": "audio/ogg"
+			}
+		]
+	}
+}

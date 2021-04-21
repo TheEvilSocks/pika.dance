@@ -1,0 +1,61 @@
+<html>
+
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Pika Dance</title>
+	<style type="text/css"></style>
+	<meta http-equiv="Content-Type" content="text/html;charset=ISO-8859-1">
+	<meta charset="UTF-8">
+	<link rel="shortcut icon" type="image/png" href="icon.png" />
+
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="keywords" content="pika, pikachu, dance, detective pikachu, disco">
+	<meta name="description" content="Watch Detective Pikachu dance.">
+
+	<meta property="og:title" content="Pika Dance">
+	<meta property="og:description" content="Watch Detective Pikachu dance.">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://pika.dance">
+	<meta property="og:image" content="https://pika.dance/icon.png" />
+
+</head>
+
+<body>
+	<span id="autoPlayMsg">You have autoplay disabled, please click anywhere to play.</span>
+	<div id="clickCatcher"></div>
+
+	<video autoplay loop id="bgvid" muted>
+		<source src="assets/PikaDance.mp4" type="video/mp4">
+	</video>
+
+	<audio autoplay loop id="bgmsc">
+		<source src="assets/audio/default.mp3" type="audio/mpeg">
+		<source src="assets/audio/default.ogg" type="audio/ogg">
+	</audio>
+
+	<span id="timer">You've been dancing for <span id="time">0</span> seconds</span>
+	<div id="songPicker">
+		<select id="picker" onchange="songClick(this.value)">
+		</select>
+	</div>
+
+	<script src="script.js"></script>
+	<script src="picker.js"></script>
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-141379984-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
+
+		gtag('config', 'UA-141379984-1');
+	</script>
+
+
+
+
+</body>
+
+</html>
